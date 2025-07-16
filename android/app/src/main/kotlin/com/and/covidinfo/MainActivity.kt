@@ -1,0 +1,5 @@
+package com.and.covidinfo
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
