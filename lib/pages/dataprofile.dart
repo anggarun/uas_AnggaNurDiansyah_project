@@ -15,8 +15,14 @@ class DataProfile extends StatelessWidget {
       body: Container(
         child: ListView(
           children: [
-            ListTile(title: Text('profil 1')),
-            ListTile(title: Text('profil 2')),
+            ListTile(
+              title: Text('Ahmad Firmansyah'),
+              tileColor: Colors.greenAccent,
+            ),
+            ListTile(
+              title: Text('Abdul Balmon'),
+              tileColor: Colors.greenAccent,
+            ),
           ],
         ),
       ),

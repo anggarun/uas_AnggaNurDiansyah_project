@@ -15,8 +15,14 @@ class DataCovid extends StatelessWidget {
       body: Container(
         child: ListView(
           children: [
-            ListTile(title: Text('Covid 1')),
-            ListTile(title: Text('Covid 2')),
+            ListTile(
+              title: Text('Daerah Jakarta'),
+              tileColor: Colors.greenAccent,
+            ),
+            ListTile(
+              title: Text('Daerah Bandung'),
+              tileColor: Colors.greenAccent,
+            ),
           ],
         ),
       ),
